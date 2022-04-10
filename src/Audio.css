@@ -1,0 +1,10 @@
+.Audio .fa-volume-up {
+  color: black;
+}
+.Audio .fa-volume-up:hover {
+  color: blue;
+}
+
+.Audio {
+  display: inline-block;
+}
