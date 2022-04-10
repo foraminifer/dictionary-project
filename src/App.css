@@ -1,14 +1,42 @@
 body {
-  max-width: 70%;
   margin: 0 auto;
-  background-image: url("library.jpg");
   background-repeat: no-repeat;
+  background-image: url("library.jpg");
   background-size: cover;
   object-fit: contain;
+  font-family: "Forum", cursive;
+}
+.App-header {
+  color: rgb(255, 255, 255);
+  background-color: rgb(8, 8, 66);
+  color: rgb(217, 153, 128);
   padding-top: 20px;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 1.5px;
+  font-family: "Maitree", serif;
+}
+.sub-header {
+  font-size: 20px;
+  margin-top: -5px;
+  color: rgb(245, 243, 235);
 }
 
 footer {
   text-align: center;
-  padding-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: rgb(217, 153, 128);
+  background-color: rgb(4, 8, 46);
+  font-size: 18px;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: rgb(217, 153, 128);
+}
+.container {
+  max-width: 70%;
 }

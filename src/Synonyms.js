@@ -1,4 +1,5 @@
 import React from "react";
+//reminder-create loop because of array
 
 export default function Synonyms(props) {
   if (props.synonyms) {

@@ -4,13 +4,26 @@ import Dictionary from "./Dictionary";
 export default function App() {
   return (
     <div className="App">
+      <header className="App-header">
+        Dictionary
+        <br />
+        <span className="sub-header">[ dik-shuh-ner-ee ]</span>
+      </header>
       <div className="container">
-        <header className="App-header"></header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="nature" />
         </main>
-        <footer>Coded by Amber Rutter</footer>
       </div>
+      <footer>
+        <a
+          href="https://github.com/foraminifer/dictionary-project"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Open-source code
+        </a>
+        <span> by Amber Rutter</span>
+      </footer>
     </div>
   );
 }

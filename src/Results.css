@@ -1,0 +1,11 @@
+.Results h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-transform: capitalize;
+  font-family: "Tenor Sans", sans-serif;
+  color: rgb(168, 72, 107);
+}
+.example {
+  color: rgb(168, 72, 107);
+}

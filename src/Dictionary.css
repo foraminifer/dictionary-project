@@ -1,9 +1,10 @@
 .Dictionary section {
-  background-color: rgb(245, 243, 235);
+  background-color: rgb(247, 250, 235);
   padding: 10px;
   border-radius: 5px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   margin: 20px 0;
+  color: rgb(5, 5, 85);
 }
 
 .Dictionary input {
@@ -15,4 +16,9 @@
 
 form {
   max-width: 350px;
+  background-color: rgb(247, 250, 235);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 20px auto;
 }
