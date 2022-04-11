@@ -21,6 +21,7 @@ body {
   font-size: 20px;
   margin-top: -5px;
   color: rgb(245, 243, 235);
+  opacity: 0.8;
 }
 
 footer {
@@ -39,4 +40,12 @@ a:hover {
 }
 .container {
   max-width: 70%;
+}
+@media (max-width: 420px) {
+  .container {
+    max-width: 80%;
+  }
+  .App-header {
+    font-size: 25px;
+  }
 }

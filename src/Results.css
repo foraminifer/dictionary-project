@@ -9,3 +9,14 @@
 .example {
   color: rgb(168, 72, 107);
 }
+
+.Results h3 {
+  color: rgb(10, 134, 165);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+@media (max-width: 4200px) {
+  .Results h2 {
+    font-size: 20px;
+  }
+}

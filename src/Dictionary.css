@@ -4,7 +4,7 @@
   border-radius: 5px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
   margin: 20px 0;
-  color: rgb(5, 5, 85);
+  color: rgb(71, 71, 88);
 }
 
 .Dictionary input {
@@ -13,12 +13,26 @@
   border: 1px solid #ddd;
   border-radius: 5px;
 }
-
+.Dictionary h1 {
+  font-size: 17px;
+  color: rgb(71, 71, 88);
+  opacity: 0.8;
+}
 form {
-  max-width: 350px;
+  max-width: 340px;
   background-color: rgb(247, 250, 235);
-  padding: 10px;
+  padding: 10px 4px;
   border-radius: 5px;
   text-align: center;
-  margin: 20px auto;
+  margin: 30px auto;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 420px) {
+  .Dictionary h1 {
+    font-size: 16px;
+  }
+  form {
+    margin-bottom: -4px;
+  }
 }
